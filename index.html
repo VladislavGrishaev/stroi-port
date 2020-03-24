@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stroit</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+<style>
+    /* carousel */
+    .media-carousel {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+        margin-top: 30px;
+    }
+
+    /* Previous button  */
+    .media-carousel .carousel-control.left {
+        left: 5px;
+        background-image: none;
+        height: 25px;
+        width: 20px;
+        margin-top: 15%;
+    }
+
+    /* Next button  */
+    .media-carousel .carousel-control.right {
+        right: 7px !important;
+        background-image: none;
+        height: 25px;
+        width: 20px;
+        margin-top: 15%;
+    }
+
+    /* Changes the position of the indicators */
+    .media-carousel .carousel-indicators {
+        right: 50%;
+        top: auto;
+        bottom: 0px;
+        margin-right: -19px;
+    }
+
+    /* Changes the colour of the indicators */
+    .media-carousel .carousel-indicators li {
+        background: #c0c0c0;
+    }
+
+    .media-carousel .carousel-indicators .active {
+        background: #333333;
+    }
+
+    .media-carousel img {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<body>
+
+    <section class="header">
+        <div class="header__mobile_wrap">
+            <!--mobile menu start-->
+            <div id="burg">
+                <a href="#">
+                    <span class="bar" id="top"></span>
+                    <span class="bar" id="middle"></span>
+                    <span class="bar" id="bottom"></span>
+                </a>
+            </div>
+            <div class="mobile-tab">
+                <nav id="mobile">
+                    <ul class="mobile-item">
+                        <li><a class="tab_mob" href="#services">Услуги монтажа и демонтажа холодильных камер</a></li>
+                        <li><a class="tab_mob" href="#price">Цены на монтаж холодильных камеры</a></li>
+                        <li><a class="tab_mob" href="#comments">Отзывы</a></li>
+                        <li><a class="tab_mob" href="#our_clients">Наши клиенты</a></li>
+                        <li><a class="tab_mob" href="#works">География работы</a></li>
+                        <li><a class="tab_mob" href="#working_schemes">Схема работы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--mobile menu end-->
+        </div>
+        <header>
+            <div class="header__company_info_wrap">
+                <div class="header__company_info">
+                    <div class="header__logo_wrap">
+                        <img class="header__logo" src="img/logo.png" alt="">
+                    </div>
+                    <div class="header__text_wrap">
+                        <p class="header__text_info"><span>Компания «Айскул Групп»</span> выполняет профессиональный
+                            монтаж, демонтаж и ввод в эксплуатацию холодильных камер любого исполнения и размера. Мы
+                            сотрудничаем с ведущими производителями оборудования, гарантируем высокое качество и быстрое
+                            выполнение работ. Предоставляем свои услуги на территории Москвы, Московской области и
+                            Центрального федерального округа.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </section>
+    <section id="services" class="services">
+        <div class="services__paragraph_info">
+            <div class="services__paragraph_wrap">
+                <img class="services__paragraph" src="img/services_logo.png" alt="">
+            </div>
+            <div class="services__text_wrap">
+                <p class="services__text_info">Услуги монтажа и демонтажа холодильных камер</p>
+            </div>
+        </div>
+
+        <div class="services__serv_wrap">
+            <div class="services__serv_info">
+                <div class="services__img_serv">
+                    <img src="img/serv1.png" alt="">
+                </div>
+                <div class="services__title_wrap">
+                    <p class="services__title">Монтаж</p>
+                    <p class="services__title_info">Все работы ведутся согласно разработанным типовым технологическим
+                        решениям. При выполнении монтажа
+                        мы используем качественный герметик и обеспечиваем плотную подгонку блоков, что в конечном итоге
+                        повышает герметичность камеры.</p>
+                    <p class="services__text_list_wrap">Процесс монтажа включает следующие работы:
+                        <ul>
+                            <li>сборка панелей;</li>
+                            <li>установка холодильного агрегата;</li>
+                            <li>прокладка электрокабелей и трубопроводных систем;</li>
+                            <li>проверка герметичности всех соединений;</li>
+                            <li>заправка системы хладагентом (выполняется согласно паспорту оборудования);</li>
+                            <li>проведение пуско-наладочных работ.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="services__serv_info services__pl">
+                <div class="services__img_serv">
+                    <img src="img/serv2.png" alt="">
+                </div>
+                <div class="services__title_wrap">
+                    <p class="services__title">Демонтаж</p>
+                    <p class="services__title_info">Выполняется квалифицированными специалистами,
+                        что позволяет минимизировать общее время работ
+                        и обеспечить полную сохранность всех компонентов холодильных камер. Мы работаем исключительно
+                        с профессиональным оборудованием и по заранее разработанному регламенту.</p>
+                    <p class="services__text_list_wrap">Процесс демонтажа состоит из следующих этапов:
+                        <ul>
+                            <li>отключение все электрических систем;</li>
+                            <li>удаление хладагентов из системы;</li>
+                            <li>разгерметизация и демонтаж трубопровода;</li>
+                            <li>демонтаж электрокабелей;</li>
+                            <li>разборка охладительного оборудования;</li>
+                            <li>разборка стен и каркаса камеры.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="request_price" class="request_price">
+        <div class="request_price__wrap">
+            <div class="request_price__text_wrap">
+                <p class="request_price__title">Узнайте стоимость монтажа и демонтажа холодильных камер</p>
+                <p class="request_price__title_info">Просто напишите нам. Мы перезвоним и оперативно всё рассчитаем.</p>
+                <button type="button" class="request_price__btn">Отправить заявку</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="price">
+        <div class="price__paragraph_info">
+            <div class="price__paragraph_wrap">
+                <img class="price__paragraph" src="img/services_logo.png" alt="">
+            </div>
+            <div class="price__text_wrap">
+                <p class="price__text_info">Цены на монтаж холодильных камеры</p>
+            </div>
+        </div>
+
+        <!--column 4 product-->
+        <div class="price__wrap column_block">
+            <div class="item-wrap mt active">
+                <div id="block_one" class="price__wrap_product item-body hover">
+
+                    <div class="price__img_product">
+                        <img src="img/product_1.png" alt="">
+                    </div>
+                    <div class="price__info_product">
+                        <p class="price__title">Камеры малого размера</p>
+                        <p class="price__title_info">Прямоугольная форма</p>
+                    </div>
+                    <div class="price__info_wrap">
+                        <div class="price__info">
+                            <p class="price__value">от 8 000 руб.</p>
+                        </div>
+                        <div class="price__info_params">
+                            <p class="price__parameter">от 160 см до 180 см</p>
+                        </div>
+                    </div>
+                    <div class="price__btn_wrap">
+                        <button id="btn_one" type="button" class="price__btn">Заказать монтаж</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="item-wrap d_none">
+                <div id="block_two" class="price__wrap_product item-body hover">
+
+                    <div class="price__img_product">
+                        <img src="img/product_3.png" alt="">
+                    </div>
+                    <div class="price__info_product">
+                        <p class="price__title">Камеры среднего размера</p>
+                        <p class="price__title_info">Прямоугольная форма</p>
+                    </div>
+                    <div class="price__info_wrap">
+                        <div class="price__info">
+                            <p class="price__value">от 13 000 руб.</p>
+                        </div>
+                        <div class="price__info_params">
+                            <p class="price__parameter">от 180 см до 200 см</p>
+                        </div>
+                    </div>
+                    <div class="price__btn_wrap">
+                        <button id="btn_two" type="button" class="price__btn">Заказать монтаж</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="item-wrap d_none">
+                <div class="item-body hover price__wrap_product" id="block_three">
+                    <div class="price__img_product">
+                        <img src="img/product_4.png" alt="">
+                    </div>
+                    <div class="price__info_product">
+                        <p class="price__title">Камеры большого размера</p>
+                        <p class="price__title_info">Прямоугольная форма</p>
+                    </div>
+                    <div class="price__info_wrap">
+                        <div class="price__info">
+                            <p class="price__value">от 450 руб./м</p>
+                        </div>
+                        <div class="price__info_params">
+                            <p class="price__parameter">от 200 см до 350 см</p>
+                        </div>
+                    </div>
+                    <div class="price__btn_wrap">
+                        <button id="btn_three" type="button" class="price__btn">Заказать монтаж</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-wrap mb d_none">
+                <div class="item-body hover price__wrap_product" id="block_four">
+                    <div class="price__img_product">
+                        <img src="img/product_5.png" alt="">
+                    </div>
+                    <div class="price__info_product">
+                        <p class="price__title">Нестандартные камеры</p>
+                        <p class="price__title_info">Индивидуальная форма</p>
+                    </div>
+                    <div class="price__info_wrap">
+                        <div class="price__info">
+                            <p class="price__value">от 500 руб./м</p>
+                        </div>
+                        <div class="price__info_params">
+                            <p class="price__parameter">от 160 см до 180 см</p>
+                        </div>
+                    </div>
+                    <div class="price__btn_wrap">
+                        <button id="btn_four" type="button" class="price__btn">Заказать монтаж</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--column 2 product-->
+        <div class="zoom-block">
+            <div class="price__wrap column_none">
+                <div class="item-wrap">
+                    <div id="col_one" class="price__wrap_product item-body hover">
+
+                        <div class="price__img_product">
+                            <img src="img/product_1.png" alt="">
+                        </div>
+                        <div class="price__info_product">
+                            <p class="price__title">Камеры малого размера</p>
+                            <p class="price__title_info">Прямоугольная форма</p>
+                        </div>
+                        <div class="price__info_wrap">
+                            <div class="price__info">
+                                <p class="price__value">от 8 000 руб.</p>
+                            </div>
+                            <div class="price__info_params">
+                                <p class="price__parameter">от 160 см до 180 см</p>
+                            </div>
+                        </div>
+                        <div class="price__btn_wrap">
+                            <button id="btn_1" type="button" class="price__btn">Заказать монтаж</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="item-wrap">
+                    <div id="col_two" class="price__wrap_product item-body hover">
+
+                        <div class="price__img_product">
+                            <img src="img/product_3.png" alt="">
+                        </div>
+                        <div class="price__info_product">
+                            <p class="price__title">Камеры среднего размера</p>
+                            <p class="price__title_info">Прямоугольная форма</p>
+                        </div>
+                        <div class="price__info_wrap">
+                            <div class="price__info">
+                                <p class="price__value">от 13 000 руб.</p>
+                            </div>
+                            <div class="price__info_params">
+                                <p class="price__parameter">от 180 см до 200 см</p>
+                            </div>
+                        </div>
+                        <div class="price__btn_wrap">
+                            <button id="btn_2" type="button" class="price__btn">Заказать монтаж</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="price__wrap column_none mt">
+                <div class="item-wrap">
+                    <div class="item-body hover price__wrap_product" id="col_three">
+                        <div class="price__img_product">
+                            <img src="img/product_4.png" alt="">
+                        </div>
+                        <div class="price__info_product">
+                            <p class="price__title">Камеры большого размера</p>
+                            <p class="price__title_info">Прямоугольная форма</p>
+                        </div>
+                        <div class="price__info_wrap">
+                            <div class="price__info">
+                                <p class="price__value">от 450 руб./м</p>
+                            </div>
+                            <div class="price__info_params">
+                                <p class="price__parameter">от 200 см до 350 см</p>
+                            </div>
+                        </div>
+                        <div class="price__btn_wrap">
+                            <button id="btn_3" type="button" class="price__btn">Заказать монтаж</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-wrap">
+                    <div class="item-body hover price__wrap_product" id="col_four">
+                        <div class="price__img_product">
+                            <img src="img/product_5.png" alt="">
+                        </div>
+                        <div class="price__info_product">
+                            <p class="price__title">Нестандартные камеры</p>
+                            <p class="price__title_info">Индивидуальная форма</p>
+                        </div>
+                        <div class="price__info_wrap">
+                            <div class="price__info">
+                                <p class="price__value">от 500 руб./м</p>
+                            </div>
+                            <div class="price__info_params">
+                                <p class="price__parameter">от 160 см до 180 см</p>
+                            </div>
+                        </div>
+                        <div class="price__btn_wrap">
+                            <button id="btn_4" type="button" class="price__btn">Заказать монтаж</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <section class="help">
+        <div class="help__wrap">
+            <div class="help__text_wrap">
+                <p class="help__title">Поможем при переезде</p>
+                <p class="help__title_info">Наша компания обеспечивает быстрое и качественное перемещение холодильных
+                    камер между объектами.
+                    Квалифицированные специалисты, наличие собственного транспорта и комплексный подход по выполнению
+                    демонтажных, монтажных и пусконаладочных работ обеспечивает полное соблюдение оговоренных сроков.
+                </p>
+                <div class="help__info_dbl">
+                    <img class="help__call_img" src="img/call.png" alt="">
+                    <p class="help__info_text">Оставьте заявку, и мы перезвоним в течение минуты.</p>
+                </div>
+                <div class="d_flex">
+                    <button type="button" class="help__btn">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about__wrap">
+            <div class="about__text_wrap">
+                <div class="about__paragraph_wrap">
+                    <img class="about__paragraph" src="img/services_logo.png" alt="">
+                </div>
+                <div class="about__text_wrap">
+                    <p class="about__text_info">Почему нас выбирают</p>
+                </div>
+            </div>
+
+            <div class="about__numbers">
+                <div class="about__cam">
+                    <p class="about__title">более</p>
+                    <img class="about__cams_img zoom-block" src="img/cams.png" alt="">
+                    <p class="about__info">смонтированных камер </p>
+                </div>
+
+                <div class="about__clients">
+                    <p class="about__title">более</p>
+                    <img class="about__clients_img zoom-block" src="img/clients.png" alt="">
+                    <p class="about__info happy_clients">довольных клиентов</p>
+                </div>
+
+                <div class="about__day">
+                    <p class="about__title">Монтаж за</p>
+                    <img class="about__day_img zoom-block" src="img/day.png" alt="">
+                    <p class="about__info done_day">день</p>
+                </div>
+            </div>
+
+            <!--column 4-->
+            <div class="about__privilege_wrap col_none">
+                <div class="about__privilege">
+                    <img src="img/privilege_1.png" alt="">
+                    <p class="about__privilege_info">Монтаж в день оплаты</p>
+                </div>
+                <div class="about__privilege">
+                    <img src="img/privilege_2.png" alt="">
+                    <p class="about__privilege_info">Камеры любой сложности и размера</p>
+                </div>
+                <div class="about__privilege">
+                    <img src="img/privilege_3.png" alt="">
+                    <p class="about__privilege_info">Установка в удобное для вас время</p>
+                </div>
+                <div class="about__privilege">
+                    <img src="img/privilege_4.png" alt="">
+                    <p class="about__privilege_info">Услуга переезда под ключ</p>
+                </div>
+            </div>
+
+            <!--column 2-->
+            <div class="col_block">
+                <div>
+                    <div class="about__privilege">
+                        <img src="img/privilege_1.png" alt="">
+                        <p class="about__privilege_info">Монтаж в день оплаты</p>
+                    </div>
+                    <div class="about__privilege mt_10">
+                        <img src="img/privilege_2.png" alt="">
+                        <p class="about__privilege_info">Камеры любой сложности и размера</p>
+                    </div>
+                </div>
+                <div class="mt">
+                    <div class="about__privilege">
+                        <img src="img/privilege_3.png" alt="">
+                        <p class="about__privilege_info">Установка в удобное для вас время</p>
+                    </div>
+                    <div class="about__privilege mt_10">
+                        <img src="img/privilege_4.png" alt="">
+                        <p class="about__privilege_info">Услуга переезда под ключ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comments" class="comments">
+        <div class="comments__wrap">
+            <div class="comments__text_wrap">
+                <div class="comments__paragraph_wrap">
+                    <img class="comments__paragraph" src="img/services_logo.png" alt="">
+                </div>
+                <div class="comments__text_wrap">
+                    <p class="comments__text_info">Отзывы</p>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class='row'>
+                    <div class='col-md-8 desk_style'>
+                        <div class="carousel slide media-carousel" id="media">
+                            <div class="carousel-inner">
+                                <div class="item  active">
+                                    <!--первые 3 слайда-->
+                                    <div class="row first_row">
+                                        <div class="col-md-4 mb">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide" alt="" src="img/bg_slide.png">
+                                                    <div class="comments__text_slide">
+                                                        <div class="comments__img_slide">
+                                                            <img src="img/comment_1.png" alt=""></div>
+                                                        <p class="comments__name_slide">Мересьев Игорь Иванович</p>
+                                                        <p class="comments__info_slide">Партнерам своей компании я уже
+                                                            не раз рекомендовал компанию ГК «Айскул Групп». Потому что
+                                                            качество продукции достойное, сервис отличный, есть
+                                                            обслуживание, работа по договору, гарантии и т. д. Что
+                                                            касается...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide" alt="" src="img/bg_slide_2.png">
+                                                    <div class="comments__text_slide">
+                                                        <div class="comments__img_slide">
+                                                            <img src="img/comment_2.png" alt=""></div>
+                                                        <p class="comments__name_slide">Олег Тищенко</p>
+                                                        <p class="comments__info_slide">Хотел бы выразить благодарность
+                                                            за
+                                                            обслуживание холодильных камер. Установили на объекте в
+                                                            начале года.
+                                                            Наладка прошла успешно, но со временем возникли проблемы с
+                                                            эксплуатацией со стороны
+                                                            нашего предприятия. Хорошо, что есть на кого...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide" alt="" src="img/bg_slide_3.png">
+                                                    <div class="comments__text_slide">
+                                                        <div class="comments__img_slide">
+                                                            <img src="img/comment_3.png" alt=""></div>
+                                                        <p class="comments__name_slide">ООО РуСтойГарант</p>
+                                                        <p class="comments__info_slide">Доброго дня. Для оснащения своей
+                                                            фабрики-кухни
+                                                            мы заказывали распашные двери холодильные. Отметим, что это
+                                                            двери европейского уровня.
+                                                            РДО предназначены для использования в средне- и
+                                                            низкотемпературных камерах.
+                                                            Конечно с подбором...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--след 3 слайда-->
+                                <div class="item">
+                                    <div class="row second_row">
+                                        <div class="col-md-4 mb">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide" alt="" src="img/bg_slide.png">
+                                                    <div class="comments__text_slide">
+                                                        <div class="comments__img_slide">
+                                                            <img src="img/comment_1.png" alt=""></div>
+                                                        <p class="comments__name_slide">Мересьев Игорь Иванович</p>
+                                                        <p class="comments__info_slide">Партнерам своей компании я уже
+                                                            не раз рекомендовал компанию ГК «Айскул Групп». Потому что
+                                                            качество продукции достойное, сервис отличный, есть
+                                                            обслуживание, работа по договору, гарантии и т. д. Что
+                                                            касается...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide" alt="" src="img/bg_slide_2.png">
+                                                    <div class="comments__text_slide">
+                                                        <div class="comments__img_slide">
+                                                            <img src="img/comment_2.png" alt=""></div>
+                                                        <p class="comments__name_slide">Олег Тищенко</p>
+                                                        <p class="comments__info_slide">Хотел бы выразить благодарность
+                                                            за
+                                                            обслуживание холодильных камер. Установили на объекте в
+                                                            начале года.
+                                                            Наладка прошла успешно, но со временем возникли проблемы с
+                                                            эксплуатацией со стороны
+                                                            нашего предприятия. Хорошо, что есть на кого...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide" alt="" src="img/bg_slide_3.png">
+                                                    <div class="comments__text_slide">
+                                                        <div class="comments__img_slide">
+                                                            <img src="img/comment_3.png" alt=""></div>
+                                                        <p class="comments__name_slide">ООО РуСтойГарант</p>
+                                                        <p class="comments__info_slide">Доброго дня. Для оснащения своей
+                                                            фабрики-кухни
+                                                            мы заказывали распашные двери холодильные. Отметим, что это
+                                                            двери европейского уровня.
+                                                            РДО предназначены для использования в средне- и
+                                                            низкотемпературных камерах.
+                                                            Конечно с подбором...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-slide="prev" href="#media" class="left carousel-control"><img
+                                    src="img/arrow_left.png" alt=""></a>
+                            <a data-slide="next" href="#media" class="right carousel-control"><img
+                                    src="img/arrow_right.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="our_clients" class="our_clients">
+        <div class="our_clients__wrap">
+            <div class="our_clients__text_wrap">
+                <div class="our_clients__paragraph_wrap">
+                    <img class="our_clients__paragraph" src="img/services_logo.png" alt="">
+                </div>
+                <div class="our_clients__text_wrap">
+                    <p class="our_clients__text_info">Наши клиенты</p>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class='row'>
+                    <div class='col-md-8 desk_style'>
+                        <div class="carousel slide media-carousel" id="arrow">
+                            <div class="carousel-inner">
+                                <div class="item  active">
+                                    <!--первые 3 слайда-->
+                                    <div class="row first_row">
+                                        <!---->
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2" alt="" src="img/ashan.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2" alt="" src="img/cola.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2 mcd_img" alt="" src="img/mcd.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2" alt="" src="img/dodopizza.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2 diksi_img" alt=""
+                                                        src="img/diksi.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--след 3 слайда-->
+                                <div class="item">
+                                    <div class="row second_row">
+                                        <!---->
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2" alt="" src="img/ashan.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2" alt="" src="img/cola.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2 mcd_img" alt="" src="img/mcd.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2" alt="" src="img/dodopizza.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 our_clients__wrap_img">
+                                            <div>
+                                                <div>
+                                                    <img class="comments__bg_slide_2 diksi_img" alt=""
+                                                        src="img/diksi.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-slide="prev" href="#arrow" class="left carousel-control left_arrow"><img
+                                    src="img/arrow_left.png" alt=""></a>
+                            <a data-slide="next" href="#arrow" class="right carousel-control right_arrow"><img
+                                    src="img/arrow_right.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section  class="our_service">
+        <div class="our_service__wrap">
+            <div class="our_service__text_wrap">
+                <div class="our_service__paragraph_wrap">
+                    <img class="our_service__paragraph" src="img/services_logo.png" alt="">
+                </div>
+                <div class="our_service__text_wrap">
+                    <p class="our_service__text_info">Хотите увеличить размер холодильной камеры?</p>
+                </div>
+            </div>
+            <div class="our_service__wrap_info">
+                <div class="our_service__serv">
+                    <p class="our_service__text_info">Собственная производственная база и сотрудничество с ведущими
+                        производителями холодильного оборудования (Polair, Ариада, МХМ, Север, Ирбис, Профхолод)
+                        позволяют производить глубокую модернизацию холодильных камер любого типа – быстро
+                        и на выгодных условиях.</p>
+                    <p class="our_service__list_title">Мы выполняем следующие работы:</p>
+                    <ul>
+                        <li>изменение полезного объема камеры (уменьшение или увеличение);</li>
+                        <li>повышение производительности холодильных установок;</li>
+                        <li>изменение системы электропитания;</li>
+                        <li>повышение герметичности камеры;</li>
+                        <li>снижение потребления электроэнергии.</li>
+                    </ul>
+                    <div class="our_service__wrap_btn">
+                        <button type="button" class="our_service__btn">Отправить заявку</button>
+                        <button type="button" class="our_service__btn btn_right">Заказать звонок</button>
+                    </div>
+                </div>
+                <div class="our_service__wrap_img">
+                    <img src="img/product_2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <div class="works__wrap">
+            <div class="works__text_wrap">
+                <div class="works__paragraph_wrap">
+                    <img class="works__paragraph" src="img/services_logo.png" alt="">
+                </div>
+                <div class="works__text_wrap">
+                    <p class="works__text_info">География работы</p>
+                </div>
+            </div>
+            <div class="works__info_wrap">
+                <p class="works__info">Работаем по всей России. Доставка холодильных камер собственного производства
+                    осуществляется транспортной компанией по выбору клиента. Возможен самовывоз продукции со склада в
+                    Москве.</p>
+            </div>
+            <div class="works__wrap_map">
+                <img src="img/map.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="working_schemes" class="working_schemes">
+        <div class="working_schemes__wrap">
+            <div class="working_schemes__text_wrap">
+                <div class="working_schemes__paragraph_wrap">
+                    <img class="working_schemes__paragraph" src="img/services_logo.png" alt="">
+                </div>
+                <div class="working_schemes__text_wrap">
+                    <p class="working_schemes__text_info">Схема работы</p>
+                </div>
+            </div>
+            <div class="working_schemes__wrap_info">
+                <div class="working_schemes__reg_form reg_order">
+                    <div class="working_schemes__wrap_img">
+                        <img src="img/reg_form.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="working_schemes__line_wrap" class="">
+                    <img class="working_schemes__line_img" src="img/line.png" alt="">
+                </div>
+                <div class="working_schemes__reg_form reg_pay">
+                    <div class="working_schemes__wrap_img">
+                        <img src="img/reg_form.png" alt="">
+                    </div>
+                </div>
+                <div><img class="working_schemes__line_img" src="img/line.png" alt=""></div>
+                <div class="working_schemes__reg_form job_done">
+                    <div class="working_schemes__wrap_img">
+                        <img src="img/reg_form.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="working_schemes__wrap_flex">
+                <div class="working_schemes__wrap_text">
+                    <div class="working_schemes__wrap_title">
+                        <p class="working_schemes__title">Оформление заказа</p>
+                    </div>
+                    <div class="working_schemes__wrap_btn">
+                        <button type="button" class="working_schemes__btn">Отправить заявку</button>
+                    </div>
+                </div>
+
+
+                <div class="working_schemes__wrap_title">
+                    <p class="working_schemes__title_top">Оплата</p>
+                </div>
+
+                <div>
+                    <div class="working_schemes__wrap_title">
+                        <p class="working_schemes__title_top">Выполнение работ</p>
+                    </div>
+                    <div class="working_schemes__wrap_list">
+                        <p class="working_schemes__list">В зависимости от выбора услуг:</p>
+                        <ul>
+                            <li>демонтаж старых камер</li>
+                            <li>перевозка, доставка камер</li>
+                            <li>установка, наладка новых холодильных камер</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d_grid">
+                <div class="grid_wrap">
+                    <div class="grid_center">
+                        <div class="working_schemes__wrap_img">
+                            <img src="img/reg_form.png" alt="">
+                        </div>
+                        <div class="working_schemes__wrap_title">
+                            <p class="working_schemes__title pt">Оформление заказа</p>
+                        </div>
+                        <div class="working_schemes__wrap_btn">
+                            <button type="button" class="working_schemes__btn">Отправить заявку</button>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div class="working_schemes__wrap_img">
+                            <img src="img/reg_form.png" alt="">
+                        </div>
+                        <div class="working_schemes__wrap_title">
+                            <p class="working_schemes__title_top">Оплата</p>
+                        </div>
+                    </div>
+
+
+                    <div>
+
+                        <div class="working_schemes__wrap_img">
+                            <img src="img/reg_form.png" alt="">
+                        </div>
+                        <div>
+                            <div class="working_schemes__wrap_title">
+                                <p class="working_schemes__title_top">Выполнение работ</p>
+                            </div>
+                            <div class="working_schemes__wrap_list">
+                                <p class="working_schemes__list">В зависимости от выбора услуг:</p>
+                                <ul>
+                                    <li>демонтаж старых камер</li>
+                                    <li>перевозка, доставка камер</li>
+                                    <li>установка, наладка новых холодильных камер</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('#media').carousel({
+            pause: true,
+            interval: false,
+        });
+        $('#arrow').carousel({
+            pause: true,
+            interval: false,
+        });
+
+        //column 4
+
+        $('#block_four').hover(function () {
+            $('#btn_four').css('display', 'block'),
+                $('#btn_four').css('display', 'block');
+        }, function () {
+            $('#btn_four').css('display', 'none');
+        });
+
+        $('#block_three').hover(function () {
+            $('#btn_three').css('display', 'block');
+        }, function () {
+            $('#btn_three').css('display', 'none');
+        });
+
+        $('#block_two').hover(function () {
+            $('#btn_two').css('display', 'block');
+        }, function () {
+            $('#btn_two').css('display', 'none');
+        });
+
+        $('#block_one').hover(function () {
+            $('#btn_one').css('display', 'block');
+        }, function () {
+            $('#btn_one').css('display', 'none');
+        });
+
+        //column 2
+
+        $('#col_four').hover(function () {
+            $('#btn_4').css('display', 'block'),
+                $('#btn_4').css('display', 'block');
+        }, function () {
+            $('#btn_4').css('display', 'none');
+        });
+
+        $('#col_three').hover(function () {
+            $('#btn_3').css('display', 'block');
+        }, function () {
+            $('#btn_3').css('display', 'none');
+        });
+
+        $('#col_two').hover(function () {
+            $('#btn_2').css('display', 'block');
+        }, function () {
+            $('#btn_2').css('display', 'none');
+        });
+
+        $('#col_one').hover(function () {
+            $('#btn_1').css('display', 'block');
+        }, function () {
+            $('#btn_1').css('display', 'none');
+        });
+    });
+
+    $(document).ready(function(){
+            $('.tab_mob').click(function(){     
+        
+            var target = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(target).offset().top   
+            }, 500);
+            return false;
+            });
+        });
+
+        $('.mobile-tab').hide();    
+
+        $('#burg').on('click', function(){      
+            $('.mobile-tab').slideToggle(300);  
+        });
+
+
+</script>
+</html>

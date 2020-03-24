@@ -1,0 +1,958 @@
+body
+    margin: 0
+
+    .header
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 30px
+        header
+            background-color: #f2f2f2
+            border-radius: 15px
+            padding-left: 35px
+            padding-right: 35px
+            padding-top: 35px
+            padding-bottom: 30px
+        &__company_info
+            display: flex
+            align-items: center
+        &__text_wrap
+            padding-left: 20px
+            font-family: 'Roboto', sans-serif
+        span
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+        
+        //mobile menu
+        #burg
+            width: 100%
+            background: #3c9be3
+            padding: 7.5px 0 7.5px 2%
+            border-bottom: 1px solid #000000
+        #burg a
+            display: block;
+            width: 70px;
+        .bar
+            display: flex;
+            margin: 8px;
+            width: 30px;
+            height: 3px;
+            background: #000000
+            z-index: 999;
+        .mobile-tab
+            display: flex;
+            width: 100%;
+            background-color: rgb(242, 242, 242);
+            border-bottom: 1px solid #000000
+            flex-direction: column;
+        .mobile-item
+            padding-top: 20px
+        .mobile-item li
+            list-style-type: none;
+            padding-bottom: 20px;
+            margin-left: 20px;
+        .mobile-item li a
+            font-family: 'Roboto', sans-serif
+            font-size: 1.3em;
+            color: #000000;
+            text-decoration: none;
+            font-weight: lighter;
+            letter-spacing: 1px;
+        .mobile-item li a:hover
+            cursor: pointer
+
+        &__mobile_wrap
+            display: none       
+    .services
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 90px
+        &__paragraph_info
+            display: flex
+            align-items: center
+            padding-bottom: 50px
+        &__text_info
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+            font-size: 26px
+        &__text_wrap
+            padding-left: 15px
+        &__serv_wrap
+            display: flex
+        &__title
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+            font-size: 20px
+            color: #303030
+        &__img_serv
+            padding-right: 15px
+        &__serv_info
+            display: flex
+        &__title_info
+            font-family: 'Roboto', sans-serif
+            color: #4c4c4c
+        &__text_list_wrap
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+            color: #303030
+        ul
+            font-family: 'Roboto', sans-serif
+            color: #666666
+            padding-left: 15px
+        &__pl
+            padding-left: 30px
+        &__paragraph_wrap
+            padding-bottom: 15px
+    .request_price
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 30px
+        //background-color: #d0ebfd
+        border-radius: 15px
+        background: url('../img/price_bg.png')
+        background-repeat: no-repeat
+        background-size: 100%
+        height: 520px
+        &__wrap
+            padding-left: 90px
+            padding-top: 60px
+            padding-bottom: 40px
+        &__text_wrap
+            width: 50%
+        &__title
+            padding-top: 25px
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+            font-size: 26px
+            color: #333333
+            margin-bottom: 0
+        &__title_info
+            font-family: 'Roboto', sans-serif
+            color: #74787a
+            margin-top: 0
+            margin-bottom: 0
+            padding-top: 35px
+            padding-bottom: 30px
+        &__btn
+            color: #ffffff
+            padding-top: 12px
+            padding-bottom: 12px
+            padding-left: 15px
+            padding-right: 15px
+            font-family: 'Roboto', sans-serif
+            font-size: 18px
+            border: none
+            border-radius: 30px
+            cursor: pointer
+            margin-bottom: 45px
+            background-color: #ff9f00            
+        &__btn:hover
+            background: linear-gradient(to top, #ee6300, #fc9500)            
+    .price
+        margin-left: 40px
+        margin-right: 40px
+        &__paragraph_info
+           display: flex
+           align-items: center
+           margin-top: 40px
+           margin-bottom: 30px
+        &__text_info
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+            font-size: 26px
+            color: #333333
+        &__text_wrap
+            padding-left: 15px
+        &__title
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+            padding-top: 10px
+            color: #333333
+        &__title_info
+            font-size: 14px
+            font-family: 'Roboto', sans-serif
+            color: #707070
+        &__info
+            background-color: #0064c1
+            padding-left: 15px
+            padding-right: 15px
+            padding-top: 10px
+            padding-bottom: 10px
+            height: max-content
+            border-radius: 10px
+        &__info_params
+            border: 1px solid #a7a7a7
+            padding-left: 15px
+            padding-right: 15px
+            padding-top: 10px
+            padding-bottom: 10px
+            height: max-content
+            border-radius: 10px
+            margin-left: 10px
+        &__wrap
+            display: flex
+            justify-content: space-between
+        &__info_wrap
+            display: flex
+        &__value
+            margin: 0
+            font-size: 14px
+        &__parameter
+            margin: 0
+            font-size: 14px
+        &__btn
+            padding-left: 15px
+            padding-right: 15px
+            padding-top: 12px
+            padding-bottom: 12px
+            color: #ffffff
+            border: none
+            border-radius: 30px
+            font-family: 'Roboto', sans-serif
+            font-size: 18px
+            display: none
+            background-color: #ff9f00
+            //display: block
+        &__btn:hover
+            background: linear-gradient(to top, #ee6300, #fc9500)
+        &__btn_wrap
+            margin-top: 30px
+            display: flex
+            justify-content: center
+            padding-bottom: 30px
+        &__wrap_product
+            margin-left: 15px
+            margin-right: 15px
+            //background-color: #fff
+            width: auto
+            white-space: nowrap
+
+        &__wrap_product:hover
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+            padding-left: 15px
+            padding-right: 15px
+            padding-top: 15px
+            border-radius: 10px
+            margin-top: -20px
+            transition: 0.3s
+            background-color: #fff
+            width: max-content
+        &__paragraph_wrap
+            padding-bottom: 15px
+        &__img_product img
+            width: 100%
+        .item-wrap
+            position: relative
+            margin: 10px
+            width: fill-available
+            
+        .item-body
+            position: absolute
+        #block_two, #block_three, #block_four
+            //display: none
+        .column_none
+            display: none
+    .help
+        background: url('../img/call_bg.png')
+        background-repeat: no-repeat
+        background-size: 100%
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 23%
+        height: 570px
+        &__wrap
+            position: absolute
+            margin-left: 6%
+            margin-top: 4%
+        &__title
+            font-family: 'Roboto', sans-serif
+            font-size: 26px
+            font-weight: bold
+            color: #333333
+            padding-top: 25px
+        &__title_info
+            font-family: 'Roboto', sans-serif
+            color: #74787a
+        &__info_text
+            font-family: 'Roboto', sans-serif
+            font-size: 20px
+            color: #3b3c3e
+            padding-left: 20px
+            padding-top: 10px
+        &__btn
+            padding-left: 15px
+            padding-right: 15px
+            padding-top: 12px
+            padding-bottom: 12px
+            color: #ffffff
+            border: none
+            border-radius: 30px
+            cursor: pointer
+            font-family: 'Roboto', sans-serif
+            font-size: 18px
+            margin-top: 25px
+            background-color: #ff9f00
+        &__btn:hover
+            background: linear-gradient(to top, #ee6300, #fc9500)
+        &__call_img
+            width: 7%
+            height: 7%
+        &__text_wrap
+            width: 50%
+        &__info_dbl
+            display: flex
+            align-items: center
+    .about
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 30px
+        &__text_wrap
+            display: flex
+            align-items: center
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            font-size: 26px
+            padding-left: 15px
+        &__title
+            color: #666666
+            font-family: 'Roboto', sans-serif            
+        &__info
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+        &__numbers
+            display: flex
+            justify-content: space-around
+        .happy_clients
+            padding-top: 5px
+        &__clients_img, &__day_img
+            padding-top: 10px
+        .done_day
+            padding-top: 23px
+        &__cam, &__clients, &__day
+            text-align: center
+        &__privilege_info
+            font-family: 'Roboto', sans-serif
+            color: #4c4c4c
+            padding-left: 15px         
+        &__privilege
+            display: flex
+            align-items: center
+        &__privilege_wrap
+            display: flex
+            justify-content: space-around
+            padding-top: 30px
+        &__paragraph_wrap
+            padding-bottom: 15px
+        .col_none
+            display: flex
+        .col_block
+            display: none
+            margin-top: 5%
+    .comments
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 30px
+        &__text_wrap
+            display: flex
+            align-items: center
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            font-size: 26px
+            padding-left: 15px
+        &__slide
+            background-image: url('../img/bg_slide.png')
+            background-repeat: no-repeat
+            background-size: cover
+            display: flex
+            flex-direction: column
+
+        //slider
+
+        &__text_slide
+            position: absolute
+            top: 0
+            padding-top: 30px
+            padding-left: 30px
+            padding-right: 40px
+        .container
+            margin: 0
+            width: 100%
+        .desk_style
+            width: 100%
+        &__img_slide
+            width: 40%
+            padding-bottom: 30px
+        &__name_slide
+            font-weight: bold
+            font-family: 'Roboto', sans-serif
+            font-size: 20px
+        &__info_slide
+            font-family: 'Roboto', sans-serif
+        &__bg_slide
+            height: 450px !important
+        &__paragraph_wrap
+            padding-bottom: 15px
+        .media-carousel
+            margin-bottom: 0
+            padding: 0 40px 30px 40px
+            margin-top: 30px
+        .media-carousel .carousel-control.left
+            left: 5px;
+            background-image: none;
+            height: 25px;
+            width: 20px;
+            margin-top: 15%;
+        .media-carousel .carousel-control.right
+            right: 7px !important;
+            background-image: none;
+            height: 25px;
+            width: 20px;
+            margin-top: 15%;
+        .media-carousel .carousel-indicators
+            right: 50%;
+            top: auto;
+            bottom: 0px;
+            margin-right: -19px;
+        .media-carousel img 
+            width: 100%;
+            height: 100%;
+
+
+    .our_clients
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 30px
+        &__text_wrap
+            display: flex
+            align-items: center
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            font-size: 26px
+            padding-left: 15px
+        &__slide
+            background-image: url('../img/bg_slide.png')
+            background-repeat: no-repeat
+            background-size: cover
+            display: flex
+            flex-direction: column
+        &__paragraph_wrap
+            padding-bottom: 15px
+        
+        //slider
+
+        .container
+            margin: 0
+            width: 100%
+        .desk_style
+            width: 100%
+        &__bg_slide_2
+            height: 135px !important
+        .left_arrow
+            left: 5px;
+            background-image: none;
+            height: 25px;
+            width: 20px;
+            margin-top: 3% !important
+        .left_arrow img
+            width: auto
+        .right_arrow
+            margin-top: 3% !important
+        &__wrap_img
+            width: 20%
+        .mcd_img
+            width: 70%
+            margin: 0 auto
+            display: flex
+        .diksi_img
+            width: 65%
+            margin: 0 auto
+            display: flex
+
+    .our_service
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 30px
+        &__text_wrap
+            display: flex
+            align-items: center
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            font-size: 26px
+            padding-left: 15px
+        &__slide
+            background-image: url('../img/bg_slide.png')
+            background-repeat: no-repeat
+            background-size: cover
+            display: flex
+            flex-direction: column
+        &__text_info
+            font-family: 'Roboto', sans-serif
+            color: #303030
+            line-height: 1.5
+        &__list_title
+            font-family: 'Roboto', sans-serif
+            color: #303030
+            font-weight: bold
+        ul
+            color: #707070
+            font-family: 'Roboto', sans-serif
+            padding-left: 15px  
+        &__btn
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: #000000
+            background-color: #ffffff;
+            border-radius: 30px;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            margin-top: 25px;
+            border-color: #ff9d00
+        &__btn:hover
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: #ffffff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            margin-top: 25px;
+            background: linear-gradient(to top, #ee6300, #fc9500)           
+        .btn_right
+            margin-left: 20px
+        &__wrap_info
+            display: flex
+            justify-content: space-between
+        &__serv
+            width: 50%
+            margin-left: 15px
+            margin-top: 30px
+            margin-bottom: 75px
+        li
+            padding-bottom: 10px
+        &__wrap_img
+            margin-right: 70px
+        &__paragraph_wrap
+            padding-bottom: 15px
+    .works
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 30px
+        &__text_wrap
+            display: flex
+            align-items: center
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            font-size: 26px
+            padding-left: 15px
+        &__info
+            font-family: 'Roboto', sans-serif
+            color: #4c4c4c
+        &__wrap_map
+            width: 50%
+            padding-left: 25px
+        &__paragraph_wrap
+            padding-bottom: 15px
+        &__info_wrap
+            width: 50%
+            padding-left: 15px
+            margin-top: 30px
+            margin-bottom: 25px
+    .working_schemes
+        margin-left: 40px
+        margin-right: 40px
+        margin-top: 50px
+        margin-bottom: 50px
+        &__text_wrap
+            display: flex
+            align-items: center
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            font-size: 26px
+            padding-left: 15px
+        &__info
+            font-family: 'Roboto', sans-serif
+            color: #4c4c4c
+        &__btn
+            margin-left: 36px
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: #ffffff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            margin-top: 25px;
+            background-color: #ff9f00
+        &__btn:hover
+            background: linear-gradient(to top, #ee6300, #fc9500)
+        &__title
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+            padding-left: 60px
+        ul
+            color: #7a7a7a
+            font-family: 'Roboto', sans-serif
+            padding-left: 15px
+        &__list
+            color: #7a7a7a
+            font-family: 'Roboto', sans-serif
+        &__wrap_info
+            display: flex
+            justify-content: space-between
+            padding-left: 50px
+            padding-right: 50px
+            margin-top: 30px
+        .reg_order, .reg_pay
+            text-align: center
+        &__line_img
+            width: 107%
+            padding-top: 50px
+        .reg_order
+            padding-left: 35px
+        &__line_wrap
+            margin-right: 25px
+        .job_done
+            padding-right: 147px
+        &__wrap_flex
+            display: flex
+            justify-content: space-between
+        &__wrap_text
+            padding-left: 20px
+            padding-top: 20px
+        &__title_top
+            padding-top: 20px
+            font-family: 'Roboto', sans-serif
+            font-weight: bold
+        &__paragraph_wrap
+            padding-bottom: 15px
+        .d_grid
+            display: none
+@media screen and (max-width:1920px) and (min-width:1795px)
+    .request_price
+        height: 570px !important
+@media screen and (max-width:1920px) and (min-width:1700px)
+    .help
+        height: 660px !important
+
+@media screen and (max-width:1440px)
+    .request_price
+        background: linear-gradient(90deg, #d0ebfd 15%, #3c9be3) !important
+        height: auto !important
+        &__wrap
+            padding: 0 0 0 50px !important
+        &__text_wrap
+            width: 100% !important
+    .price
+        .column_block
+            display: none !important
+        .column_none
+            display: flex !important
+            margin-left: -5%
+        .mt
+            margin-top: 30% !important
+        &__wrap_product:hover
+            z-index: 1
+        .item-wrap
+            display: flex
+            justify-content: center
+    .help
+        margin-top: 25% !important
+
+@media screen and (max-width:1270px)
+    .help
+        margin-top: 30% !important
+
+@media screen and (max-width:1260px)
+    .help
+        background: linear-gradient(90deg, #d0ebfd 15%, #3c9be3) !important
+        height: auto !important
+        border-radius: 15px
+        margin-top: 35% !important
+        &__wrap
+            position: relative !important
+            padding-bottom: 3%
+            padding-left: 50px
+            padding-right: 50px
+            margin: 0 !important
+        &__text_wrap
+            width: 100% !important
+
+@media screen and (max-width:1220px)
+    .price
+        .mt
+            margin-top: 35% !important
+        .col_none
+            margin-left: 10px
+            margin-right: 10px
+
+@media screen and (max-width:1210px)
+    .comments
+        .carousel-control.right, .carousel-control.left
+            margin-top: 17% !important
+
+@media screen and (max-width:1100px)
+    .comments
+        .carousel-control.right, .carousel-control.left
+            margin-top: 20% !important
+
+@media screen and (max-width:1095px)
+    .about
+        .col_none
+            display: none !important
+        .col_block
+            display: flex  !important
+            justify-content: space-around
+        .mt_10
+            margin-top: 10%
+
+@media screen and (max-width:991px)
+    .comments
+        .first_row, .second_row
+            display: flex
+            zoom: 85%
+    .our_clients
+        .first_row, .second_row
+            display: flex
+            align-items: center
+    .our_service
+        &__serv
+            width: 100% !important
+        &__wrap_img
+            display: none
+    .works
+        &__wrap_map img
+            zoom: 50%
+        &__info_wrap
+            width: 100% !important
+    .price
+        .zoom-block
+            zoom: 90%
+    .about
+        .zoom-block
+            zoom: 90% 
+    .header
+        margin: 0 !important
+        header
+            border-radius: 0 !important
+        &__mobile_wrap
+            display: block !important     
+@media screen and (max-width:990px)
+    .services
+        &__serv_wrap
+            flex-direction: column
+        &__pl
+            padding-left: 0 !important
+            padding-top: 30px
+    .request_price
+        background: linear-gradient(90deg, #d0ebfd 15%, #3c9be3) !important
+    .working_schemes
+        &__wrap_info, &__wrap_flex
+            display: none !important
+        &__btn
+            margin: 0 !important
+        &__title
+            padding: 0 !important
+        .grid_wrap
+            display: grid
+        .grid_center
+            display: grid
+            justify-content: center
+        &__wrap_img
+            display: grid
+            justify-content: center
+        &__wrap_title
+            text-align: center
+        &__wrap_list
+            display: grid
+            justify-content: center  
+        .pt
+            padding-top: 20px !important
+        &__wrap_btn
+            margin-bottom: 30px
+        .d_grid
+            display: block !important   
+
+@media screen and (max-width:886px)
+    .price
+        .column_block
+            display: flex !important
+            flex-direction: column
+        .column_none
+            display: none !important
+        .item-wrap
+            margin-top: 45% !important
+        .mt
+            margin-top: 0 !important
+        .mb
+            margin-bottom: 10% !important
+    .about
+        .zoom-block
+            zoom: 75%
+    .comments
+        .first_row, .second_row
+            display: flex
+            flex-direction: column
+            margin-left: 20%
+            margin-right: 20%
+        &__img_slide
+            width: 30% !important
+        .first_row .mb
+            margin-bottom: 10%
+        .carousel-control.right, .carousel-control.left
+            display: none
+
+
+@media screen and (max-width:860px)
+    .about
+        .col_block
+            display: grid !important
+        .mt
+            margin-top: 30px
+        &__numbers
+            display: grid !important   
+    .comments
+        .first_row, .second_row
+            margin: 0 !important
+        .media-carousel
+            padding: 0 !important
+    .our_clients
+        .first_row, .second_row
+            display: flex
+            flex-direction: column
+        &__wrap_img
+            width: 100% !important
+        .carousel-control.right, .carousel-control.left
+            display: none
+    .price
+        .d_none
+            display: none !important
+        .item-wrap
+            margin-left: -3% !important
+
+@media screen and (max-width:860px) and (min-width:460px)
+    .comments
+        &__bg_slide_2
+            width: 50% !important
+            display: flex
+            margin: 0 auto
+@media screen and (max-width:860px) and (min-width:729px)
+    .help
+        margin-top: 45% !important
+
+@media screen and (max-width:726px)
+    .help
+        margin-top: 55% !important
+
+@media screen and (max-width:620px)
+    .request
+        &__price_wrap
+            padding-left: 25px !important
+            padding-right: 25px !important
+    .help
+        .d_flex
+            display: flex
+            justify-content: center  
+
+@media screen and (max-width:598px)
+    .help
+        margin-top: 65% !important
+    .our_service
+        &__serv
+            margin-left: 0 !important
+
+@media screen and (max-width:580px)
+    .services
+        &__serv_info
+            display: flex
+            flex-direction: column
+        &__img_serv
+            padding-bottom: 20px
+    .header
+        &__company_info
+            display: flex
+            flex-direction: column
+        &__logo_wrap
+            padding-bottom: 20px
+
+@media screen and (max-width:540px)
+    .help
+        margin-top: 70% !important   
+
+@media screen and (max-width:480px)
+    .help
+        margin-top: 75% !important    
+@media screen and (max-width:440px)
+    .help
+        margin-top: 85% !important
+        &__wrap
+            padding-left: 20px !important
+            padding-right: 20px !important
+        &__btn
+            margin-bottom: 30px !important          
+    .request_price
+        &__wrap
+            padding-left: 20px !important
+            padding-right: 20px !important  
+
+@media screen and (max-width:598px)
+    .help
+        margin-top: 90% !important 
+    .our_service
+        &__btn
+            margin-left: 0 !important
+        &__wrap_btn
+            display: grid
+            justify-content: center     
+
+@media screen and (max-width:375px)
+    .works
+        &__wrap_map img
+            zoom: 40%
+    .our_service
+        &__btn
+            margin-left: 0 !important
+        &__wrap_btn
+            display: grid
+            justify-content: center
+    .comments
+        .first_row, .second_row
+            margin: 0 !important
+        .media-carousel
+            padding: 0 !important
+    .our_clients
+        .first_row, .second_row
+            display: flex
+            flex-direction: column
+        &__wrap_img
+            width: 100% !important
+        .carousel-control.right, .carousel-control.left
+            display: none
+    .about
+        .col_block
+            display: grid !important
+        .mt
+            margin-top: 30px
+        &__numbers
+            display: grid !important
+    .help
+        &__call_img
+            display: none
+        &__info_text
+            padding: 0 !important
+        &__btn
+            margin-bottom: 30px
+    .price
+        .item-body
+            zoom: 80%    
+@media screen and (max-width:320px)
+    .price
+        .item-body
+            zoom: 80%
